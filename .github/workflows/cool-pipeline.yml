@@ -16,7 +16,7 @@ jobs:
     with:
       node-version: "18"
   - name: Pretend to build
-      run: echo Pretending to build some kind of app...
+    run: echo Pretending to build some kind of app...
   - name: Push artifact foo.txt
       uses: actions/upload-artifact@v3
       with:
